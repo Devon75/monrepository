@@ -1,0 +1,643 @@
+@import  url ( 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap' );
+
+* {
+    marge :  0 ;
+    rembourrage :  0 ;
+    box-sizing : border-box;
+    font-family :  'Poppins' , sans-serif;
+}
+
+corps {
+    affichage : bloc ;
+    /* fond : dégradé radial (whitesmoke, rgb (0, 194, 194), rgba (0, 160, 160, 0,856)); */
+    background-repeat : pas de répétition ;
+    background-size : couverture;
+    pièce jointe en arrière-plan : fixe ;
+    taille de police :  16 px ;
+}
+
+: racine {
+    --noir :  # 000 ;
+    --teal : cyan foncé;
+    --white :  # fff ;
+}
+
+/************************************ ENTÊTE ************ ************************/
+
+. premier ministre {
+    largeur :  100 % ;
+    affichage : flexible ;
+    justifier-contenu : espacer uniformément ;
+    align-items : center;
+    couleur de fond :  var ( --black );
+}
+
+. premier  h1 {
+    taille de police :  1,5 rem ;
+    font-weight :  600 ;
+    couleur :  var ( --white );
+}
+
+. premier  h1 : survoler {
+    couleur :  RVB ( 0 ,  201 ,  201 );
+}
+
+. première  adresse {
+    affichage : flexible ;
+    espacement des mots :  1 rem ;
+    couleur :  var ( --white );
+}
+
+. première  adresse : survolez {
+    couleur :  RVB ( 0 ,  201 ,  201 );
+}
+
+/************************************ NAVBAR ************ ************************/
+
+navigation {
+    affichage : flexible ;
+    position : fixe ;
+    débordement : masqué ;
+    largeur :  100 % ;
+    hauteur :  60 px ;
+    couleur de fond : cyan foncé ;
+    justifier-contenu : espace-autour ;
+    z-index :  1 ;
+    hauteur de ligne :  80 px ;
+    grille-colonne :  1  /  5 ;
+}
+
+. collant {
+    position : fixe ;
+    haut :  0 ;
+    largeur :  100 % ;
+}
+  
+. collant  + . Accueil {
+    padding-top :  60 px ;
+}
+
+nav . blanc {
+    couleur de fond :  var ( --white );
+}
+
+. logo {
+    affichage : flexible ;
+    justifier-contenu : center;
+    align-items : center;
+    taille de police :  40 px ;
+    font-weight :  800 ;
+    couleur :  var ( --white );
+    interlettre :  3 px ;
+    curseur : pointeur;
+    text-transform : majuscule ;
+}
+
+. logo . cyan foncé {
+    couleur : cyan foncé;
+}
+
+b {
+    taille de police :  70 px ;
+    couleur :  var ( --black );
+}
+
+. éléments de navigation {
+    affichage : flexible ;
+    marge :  0 ;
+    rembourrage :  0 ;
+    justifier-contenu : center;
+    align-items : center;
+}
+
+. navItems  li {
+    affichage : bloc en ligne ;
+    style de liste : aucun ;
+    marge :  0  15 px ;
+}
+
+. navItems  li : hover {
+    affichage : bloc ;
+    border-bottom :  var solide de 8 px ( --black );
+}
+
+. navItems  li  a {
+    taille de police :  25 px ;
+    couleur :  var ( --white );
+    interlettre :  3 px ;
+    texte-décoration : aucun ;
+    text-transform : capitaliser ;
+}
+
+. navItems  li  a . noire {
+    couleur :  var ( --black );
+}
+
+
+
+. liens {
+    affichage : flexible ;
+    justifier-contenu : center;
+    align-items : center;
+}
+
+. liens  un {
+    taille de police :  30 px ;
+    couleur :  var ( --white );
+    marge :  25 px  10 px ;
+}
+
+# lien  un . cyan foncé {
+    couleur : cyan foncé;
+}
+
+# lien  un . darkcyan : survoler {
+    couleur :  var ( --black );
+}
+
+
+/************************************ PRINCIPAL ************ ************************/
+. titre {
+    couleur :  var ( --white );
+    taille de police :  5 rem ;
+    font-weight :  600 ;
+    text-transform : majuscule ;
+}
+
+. titre2 {
+    text-align : center;
+    marge inférieure :  2,5 rem ;
+    couleur :  var ( --black );
+}
+/************************************ PRINCIPAL ************ ************************/
+
+
+
+/************************************ section ACCUEIL *********** *************************/
+
+. Accueil {
+    affichage : flexible ;
+    flex-direction : colonne ;
+    fond :  var ( --black );
+    background-repeat : pas de répétition ;
+    background-size : couverture;
+    largeur :  100 % ;
+    hauteur :  100 vh ;
+    justifier-contenu : center;
+    align-items : center;
+    text-align : center;
+}
+
+. en-têtes {
+    affichage : flexible ;
+    justifier-contenu : center;
+    align-items : center;
+    flex-direction : colonne ;
+    couleur de fond : transparent ;
+    espace :  calc ( 50 px  +  10 % );
+
+    largeur :  80 % ;
+   hauteur :  50 vh ;
+}
+
+. titreP {
+    couleur :  var ( --white );
+    taille de police :  5 rem ;
+    font-weight :  200 ;
+    text-align : center;
+    text-transform : majuscule ;
+    opacité :  0 ;
+    transition : opacité 1 s easy-in-out ;
+}
+
+
+. titre {
+    couleur :  var ( --white );
+    taille de police :  3 rem ;
+    font-weight :  200 ;
+    text-align : center;
+    text-transform : majuscule ;
+}
+
+. Article d'accueil  {
+    largeur :  60 % ;
+    text-align : justifier ;
+    couleur :  var ( --white );
+}
+
+# homeBtn {
+    position : relative ;
+    couleur :  var ( --white );
+    rayon de bordure :  8 px ;
+    couleur de fond : cyan foncé ;
+    contour : aucun;
+    bordure : aucune ;
+    curseur : pointeur;
+    taille de police :  25 px ;
+    font-weight :  400 ;
+    rembourrage :  8 px  14 px ;
+    marge :  40 px  5 px ;
+    interlettre :  2 px ;
+    text-transform : capitaliser ;
+    débordement : masqué ;
+    box-shadow :  0  15 px  10 px  rgba ( 0 ,  0 ,  0 ,  0.4 );
+    transition : toutes les 0,4 s d'aisance ;
+}
+
+# homeBtn :: après {
+    contenu :  '' ;
+    position : absolue ;
+    haut :  50 % ;
+    gauche :  50 % ;
+    transformer :  traduire ( -50 % ,  -50 % );
+    largeur :  0 ;
+    hauteur :  0 ;
+    couleur de fond :  rgba ( 255 ,  255 ,  255 ,  0.3 );
+    rayon de bordure :  50 % ;
+    opacité :  0 ;
+}
+
+# homeBtn : hover :: après {
+    largeur :  200 px ;
+    hauteur :  200 px ;
+    opacité :  1 ;
+    transition : tous les 0,4 s d'assouplissement ;
+}
+
+/************************************ section CV *********** *************************/
+
+. sectionCv {
+    affichage : flexible ;
+    flex-direction : colonne ;
+    justifier-contenu : center;
+    align-items : center;
+    largeur :  100 % ;
+    hauteur :  70 % ;
+    /* bordure : 5px noir uni ; */
+}
+
+. TitreCompétences {
+    affichage : flexible ;
+    flex-wrap : envelopper;
+    largeur :  100 % ;
+    hauteur :  10 % ;
+    justifier-contenu : center;
+    align-content : center;
+    text-align : center;
+}
+
+. contenu {
+    affichage : flexible ;
+    flex-direction : ligne ;
+    largeur :  100 % ;
+    hauteur :  100 % ;
+    marge supérieure :  5 rem ;
+    justifier-contenu : center;
+    align-items : center;
+    text-align : center;
+    écart de colonne :  1,5 rem ;
+}
+
+. Développement {
+    grille-colonne :  1 ;
+    hauteur :  100 % ;
+    justifier-contenu : center;
+    align-items : center;
+}
+
+. Réactif {
+    grille-colonne :  1 ;
+    hauteur :  100 % ;
+    justifier-contenu : center;
+    align-items : center;
+}
+
+. Communications {
+    grille-colonne :  1 ;
+    hauteur :  100 % ;
+    justifier-contenu : center;
+    align-items : center;
+}
+
+# btnCV {
+    position : relative ;
+    largeur :  14 % ;
+    rayon de bordure :  8 px ;
+    couleur de fond :  rgba ( 0 ,  0 ,  0 ,  0.767 );
+    contour : aucun;
+    bordure : aucune ;
+    curseur : pointeur;
+    taille de police :  25 px ;
+    font-weight :  400 ;
+    couleur :  var ( --white );
+    rembourrage :  8 px  14 px ;
+    marge :  40 px  5 px ;
+    interlettre :  2 px ;
+    text-transform : capitaliser ;
+    box-shadow :  0  15 px  10 px  rgba ( 0 ,  0 ,  0 ,  0.4 );
+    débordement : masqué ;
+    transition : toutes les 0,3 s d'aisance ;
+}
+
+# btnCV :: après {
+    contenu :  '' ;
+    position : absolue ;
+    haut :  50 % ;
+    gauche :  50 % ;
+    transformer :  traduire ( -50 % ,  -50 % );
+    largeur :  0 ;
+    hauteur :  0 ;
+    couleur de fond :  rgba ( 255 ,  255 ,  255 ,  0.4 );
+    rayon de bordure :  50 % ;
+    opacité :  0 ;
+}
+
+# btnCV : survoler :: après {
+    largeur :  200 px ;
+    hauteur :  200 px ;
+    opacité :  1 ;
+    transition : toutes les 0,8 s d'assouplissement ;
+}
+
+/************************************ PARALLAXE N°1 ********* **************************/
+
+. parallaxe {
+    hauteur :  20 vh ;
+    pièce jointe en arrière-plan : fixe ;
+    position d'arrière-plan : centre ;
+    background-repeat : pas de répétition ;
+    background-size : couverture;
+}
+
+. parallaxe1 {
+    image de fond :  url ( "../image/codebackground.jpg" );
+}
+
+/************************************ rubrique SAVOIR-FAIRE ********* **************************/
+
+. savoirFaire {
+    affichage : flexible ;
+    flex-direction : colonne ;
+    justifier-contenu : center;
+    align-items : center;
+    largeur :  100 % ;
+    hauteur :  70 % ;
+    /* bordure : 5px noir uni ; */
+}
+
+. grille-conteneur_CV {
+    affichage : flexible ;
+    flex-direction : colonne ;
+    largeur :  100 % ;
+    hauteur min :  100 % ;
+    /* bordure : 5px noir uni ; */
+}
+
+. Emploi {
+    affichage : flexible ;
+    flex-wrap : envelopper;
+    largeur :  100 % ;
+    hauteur :  10 % ;
+    justifier-contenu : center;
+    align-content : center;
+    text-align : center;
+}
+
+. contenu {
+    affichage : grille ;
+    grid-template-columns :  répétition ( 4 ,  3 fr );
+    largeur :  100 % ;
+    hauteur :  100 % ;
+    marge supérieure :  2 rem ;
+    justifier-contenu : center;
+    align-items : center;
+    text-align : center;
+    écart de colonne :  1,5 rem ;
+}
+
+. Expériences {
+    /*largeur : 33 % ;*/
+    hauteur min :  100 % ;
+    justifier-contenu : center;
+    align-items : center;
+    text-align : center;
+}
+
+. Expériences  h3 {
+    marge supérieure :  1 rem ;
+    taille de police :  3 rem ;
+    font-weight : plus léger;
+    couleur :  var ( --black );
+}
+
+. Expériences  h4 {
+    marge supérieure :  0,8 rem ;
+}
+
+. Article sur les expériences  {
+    largeur :  100 % ;
+}
+
+. Compétences {
+    hauteur min :  100 % ;
+    text-align : center;
+}
+
+. Compétences  h3 {
+    marge supérieure :  1 rem ;
+    taille de police :  3 rem ;
+    font-weight : plus léger;
+    couleur :  var ( --black );
+}
+
+. Compétences  h4 {
+    marge supérieure :  0,8 rem ;
+}
+
+. Compétences  ul  li {
+    style de liste : aucun ;
+}
+
+. Formation {
+    hauteur min :  100 % ;
+    justifier-contenu : center;
+    align-items : center;
+    text-align : center;
+}
+
+. Formation  p {
+    largeur :  100 % ;
+}
+
+. Formation  h3 {
+    marge supérieure :  1 rem ;
+    taille de police :  3 rem ;
+    font-weight : plus léger;
+    couleur :  var ( --black );
+}
+
+. Formation  h4 {
+    marge supérieure :  0,8 rem ;
+}
+
+. infocompl {
+    hauteur min :  100 % ;
+    justifier-contenu : center;
+    align-items : center;
+    text-align : center;
+}
+
+. infocompl  h3 {
+    marge supérieure :  1 rem ;
+    taille de police :  3 rem ;
+    font-weight : plus léger;
+    couleur :  var ( --black );
+
+}
+
+/************************************ PARALLAXE N°2 ********* **************************/
+
+. parallaxe2 {
+    image de fond :  url ( "../image/coding.png" );
+}
+
+/************************************ rubrique PROJETS MES ********** **************************/
+
+. grille-container_bottom {
+    affichage : flexible ;
+    flex-direction : colonne ;
+    justifier-contenu : center;
+    align-items : center;
+    interligne :  2 rem ;
+    largeur :  100 % ;
+    hauteur min :  80 vh ;
+    /* bordure : 5px noir uni ; */
+}
+
+. cartes {    
+    affichage : flexible ;
+    flex-direction : ligne ;
+    écart de colonne :  2 rem ;
+}
+
+. w3-carte-4 {
+    largeur :  100 % ;
+    background-color : whitesmoke;
+}
+
+
+. w3-carte-4  img {
+    largeur :  100 % ;
+}
+
+/************************************ rubrique CONTACTS *********** *************************/
+
+. contacts {
+    affichage : flexible ;
+    flex-direction : colonne ;
+    justifier-contenu : center;
+    align-items : center;
+    text-align : center;
+    /* bordure : 5px noir uni ; */
+}
+
+. headPage {
+    affichage : flexible ;
+    flex-direction : colonne ;
+    largeur :  100 % ;
+    hauteur min :  10 vh ;
+    justifier-contenu : center;
+    align-items : center;
+    text-align : center;
+}
+
+. headPage  p  étendue {
+    font-weight :  800 ;
+}
+
+. grille-conteneur_contact {
+    affichage : flexible ;
+    justifier-contenu : center;
+    align-items : center;
+    text-align : début ;
+    largeur :  100 % ;
+    hauteur min :  90 % ;
+}
+
+. géo {
+    affichage : flexible ;
+    largeur :  50 % ;
+    marge-bas :  6 % ;
+    justifier-contenu : center;
+    align-items : center;
+    rayon de bordure :  5 px ;
+    couleur d'arrière-plan : aucune ;
+    rembourrage :  20 px ;
+}
+
+/************************************ BAS DE PAGE ************ ************************/
+
+pied de page {
+    couleur : blanc;
+    text-align : center;
+}
+
+. contenu du pied de page {
+    affichage : flexible ;
+    flex-direction : ligne ;
+    largeur :  100 % ;
+    hauteur :  80 % ;
+    marge supérieure :  5 rem ;
+    justifier-contenu : espacer uniformément ;
+    justifier-contenu : center;
+    align-items : center;
+    text-align : center;
+    couleur de fond :  var ( --black );
+}
+
+. CV {
+    affichage : flexible ;
+    largeur :  100 % ;
+    flex-direction : colonne ;
+    justifier-contenu : center;
+    align-items : center;
+    hauteur :  80 % ;
+}
+
+. CV  h2 {
+    couleur :  var ( --white );
+    taille de police :  3 rem ;
+}
+
+. cv  image {
+    largeur :  20 vw ;
+}
+
+. liens sociaux {
+    affichage : flexible ;
+    largeur :  100 % ;
+    justifier-contenu : center;
+    align-items : début ;
+    align-self : flex-start;
+    hauteur :  80 % ;
+    
+}
+
+. liens sociaux  a {
+    marge :  1 rem ;
+}
+
+. liens sociaux  a  je {
+    taille de police :  2 rem ;
+    couleur :  var ( --white );
+}
+
+. mentionsLégales {
+    hauteur min :  5 vh ;
+    align-content : center;
+    couleur de fond :  var ( --black );
+}
+
+. mentionsLégales  p {
+    largeur :  100 % ;
+}
